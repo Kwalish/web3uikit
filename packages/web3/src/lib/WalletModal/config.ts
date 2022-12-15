@@ -18,36 +18,6 @@ const connectors = [
         provider: 'metamask',
         priority: 1,
     },
-    {
-        title: 'WalletConnect',
-        icon: WalletConnect,
-        provider: 'walletconnect',
-        priority: 2,
-    },
-    {
-        title: 'Trust Wallet',
-        icon: TrustWallet,
-        provider: 'metamask',
-        priority: 3,
-    },
-    {
-        title: 'MathWallet',
-        icon: MathWallet,
-        provider: 'metamask',
-        priority: 999,
-    },
-    {
-        title: 'TokenPocket',
-        icon: TokenPocket,
-        provider: 'metamask',
-        priority: 999,
-    },
-    {
-        title: 'SafePal',
-        icon: SafePal,
-        provider: 'metamask',
-        priority: 999,
-    },
 ];
 
 export default connectors;
